@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Manejo de efectivo y equivalente al efectivo.',
     descripcionCurso:
-      'En el presente componente formativo, se desarrolla la temática de efectivo y equivalente al efectivo; para ello, se tendrán en cuenta los criterios de reconocimiento, medición, presentación y revelación. Recordemos que estos elementos son muy importantes en el ámbito empresarial, toda vez que, permiten dar cumplimiento a los compromisos adquiridos, teniendo en cuenta la capacidad de liquidez y, a su vez, la fomentación de un adecuado manejo que permita salvaguardar el activo de la organización.',
+      'En este componente se desarrolla los conceptos efectivo y equivalente al efectivo, para ello se tendrá en cuenta los criterios de reconocimiento, medición, presentación y revelación, estos elementos son importantes en el ámbito empresarial, toda vez, que permiten dar cumplimiento a los compromisos adquiridos, teniendo en cuenta, la capacidad de liquidez y a su vez la fomentación de un adecuado manejo, que permita salvaguardar el activo de la organización, de ahí la importancia de tomar buenas decisiones, las cuales se verán reflejadas en una adecuada administración de la organización.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
   },
@@ -95,135 +95,157 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+      referencia: 'Amador, A. (2011). Conciliación bancaría.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://files.sena-contable.webnode.es/200000504-9a9dd9b934/Conciliaci%C3%B2n%20Bancaria.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047',
+    },
+    {
+      referencia:
+        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Contabilidad 7: estado de flujos de efectivo. Normas Internacionales de Información Financiera',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Información Financiera 9: Instrumentos financieros.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica/enmienda-a-la-niif-9-instrumentos/doc-ctcp-xl8w9-141',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Decreto 2270 de 2019.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Fierro Martínez, Ángel María (2011). Contabilidad General (4ª ed.). Ecoe Ediciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29895#',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Fierro Martínez, Ángel María (2015). Contabilidad de activos con enfoque NIIF para pymes (3ª ed.). Ecoe Ediciones.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39427',
+    },
+    {
+      referencia:
+        'Instituto nacional de contadores públicos. (2020, 01 de noviembre).',
+      link: 'https://www.incp.org.co/',
+    },
+    {
+      referencia: 'Junta central de contadores. (2020, 01 de noviembre). ',
+      link: 'http://www.jcc.gov.co/',
+    },
+    {
+      referencia:
+        'Moncayo, C. Definición de activos y pasivos en las normas internacionales de información financiera (NIIF). Instituto Nacional de Contadores Públicos de Colombia. ',
+      link:
+        'https://www.incp.org.co/definicion-de-activos-y-pasivos-en-las-normas-internacionales-de-informacion-financiera-niif/',
+    },
+    {
+      referencia: 'Normas Internacionales de Contabilidad.',
+      link:
+        'https://normasinternacionalesdecontabilidad.es/normas-internacionales/',
+    },
+    {
+      referencia:
+        'Sinisterra V., Polanco L., y Henao H. (2011). Contabilidad: sistema de información para las organizaciones. Mc. Graw Hill.  ',
+    },
+    {
+      referencia:
+        'Varón, L. (2018). Efectivo y equivalentes al efectivo (Nic).',
+      link: 'https://www.gerencie.com/efectivo-y-equivalentes-al-efectivo.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Activo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es un recurso controlado que viene de eventos pasados y, en un futuro, se espera obtener beneficios económicos.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Banco',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es una cuenta contable que refleja los depósitos financieros, se puede presentar en moneda nacional o extranjera.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Caja menor',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Es una cuenta contable que maneja cuantías menores, dependiendo de las políticas empresariales. A este fondo se asigna un responsable para su administración y control.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Conciliación bancaria',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es la confrontación y verificación de la información contable registrada en una cuenta de ahorros o corriente por la empresa, con la otorgada por la entidad financiera en el extracto bancario.',
     },
     {
-      termino: 'Moda',
+      termino: 'Costo histórico',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Hace referencia al valor que se registra en el momento de adquisición o compra de un bien o servicio.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Efectivo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Hace referencia al dinero que se encuentra en caja general, caja menor y en las entidades financieras, que son de disponibilidad inmediata.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Equivalentes de efectivo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Este concepto hace énfasis a las inversiones a corto plazo (menor a 90 días), que tienen gran liquidez y se encuentran sujetas a un riesgo insignificante.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Extracto bancario',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es el documento que expide la entidad financiera, donde se refleja el saldo y los diferentes movimientos (entradas y salidas) de una cuenta de ahorros o corriente.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Políticas contables',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son las bases, normas y procedimientos que debe de tener en cuenta una entidad para la medición, presentación y revelación de los elementos de los estados financieros.',
     },
     {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Valor razonable',
+      significado: 'Hace referencia a las mediciones basadas en el mercado.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Fierro Martínez, Ángel María (2011). Contabilidad General (4ª ed.). Ecoe Ediciones.',
+      tipo: 'Capítulo 5, página 145.',
+      link:
+        'Fierro Martínez, Ángel María (2011). Contabilidad General (4ª ed.). Ecoe Ediciones.',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Fierro Martínez, Ángel María (2015). Contabilidad de activos con enfoque NIIF para pymes (3ª ed.). Ecoe Ediciones.',
+      tipo: 'Capítulo 3, página 47',
+      link:
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39427',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+      texto: 'Decreto 2270 de 2019',
+      tipo: 'Decreto',
+      link:
+        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto: 'Elaboración conciliación bancaria',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=JguCZCEl5Jg',
+    },
+    {
+      texto: 'Elaboración conciliación',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Zq4z-rvXfYw&list=TLPQMTgwOTIwMjBLvU-jF1v5uA&index=2',
     },
   ],
   creditos: {
@@ -255,14 +277,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Marcela Gonzalez Gomez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'John Andres Ayala Angarita',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
