@@ -320,22 +320,555 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-4 En el proceso contable se requieren diferenciar los conceptos de la caja general y caja menor, teniendo en cuenta que cada una tiene políticas de manejo y control, de acuerdo con lo establecido por la entidad.
-    p.mb-4 Teniendo en cuenta que es un activo muy importante, se deben diseñar e implementar políticas para salvaguardar el activo. Algunas directrices que se pueden implementar, son las siguientes:
+    p.mb-4 Por lo anterior, es fundamental realizar arqueos de caja, lo cual consiste en analizar y comprobar que la información contable coincida con el efectivo que se encuentra de forma física (billetes, monedas, cheques).  Se debe verificar que no presenten faltantes o sobrantes de caja, de llegar a suceder, se realiza el respectivo ajuste mediante una nota contable. El faltante resulta cuando se realiza el arqueo y se observa que el valor en la caja es menor que el saldo que se refleja en los libros.
+    p.mb-5 La entidad elabora el formato para registrar la información obtenida en el arqueo de caja. A continuación, observa el formato guía para su análisis:
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .row.justify-content-center
+          .col-lg-10.p-4(style="background-color: #6595BF;").mb-0
+            h4.text-center.text-white.mb-0 Arqueo Caja Menor
+
+          .col-lg-10.p-4(style="background-color: #fcf9f8;")
+            h5.mb-2(style="color:#f00") Fecha de elaboración:
+            .tabla-a.color-acento-contenido.mb-5
+              table
+                thead(style="border-color: snow;")
+                  tr
+                    th.text-start(style="width:50%;background-color:#f6f6f6; border-left: none; font-weight:normal;") Logo de la <br>empresa
+                    td(colspan='2',style="background-color: #fcf9f8; border: none;")
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Nombre de la empresa: 
+                    td(colspan='2')
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Nit de la empresa: 
+                    td.text-center(colspan='2') Teléfono: 
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Dirección de la empresa:
+                    td(colspan='2')
+                  tr
+                    th(colspan='3', style="background-color: #cac6c6; border-right: snow;") ACTA DE ARQUEO CAJA
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Nombre responsable: 
+                    td.text-center(colspan='2') XXXXXXX 
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Fehca y hora de realización:
+                    td.text-center(colspan='2')  DIA/MES/AÑO
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Saldo segun libro de caja:
+                    td.text-center(colspan='2') 0.000.000.00
+                  tr
+                    th(colspan='3', style="border:none;")
+                    
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Efectivo
+                    td.text-center(colspan='2') $
+                    
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") 
+                    th.text-center(colspan='1', style="font-weight:normal;")  Unidades
+                    td.text-center(colspan='1')  Total
+                  
+                  tr
+                    th(colspan='3', style="border:none;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 50.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 20.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 10.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 5.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 2.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 1.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 1.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Monedas de 500 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 200 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Monedas de 100 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 50 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  0,00
+
+                  tr
+                    th(colspan='3', style="border:none;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Otros fondos
+                    td.text-end(colspan='2')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Vales
+                    td.text-end(colspan='2')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Facturas
+                    td.text-end(colspan='2')  0,00
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Anticipos
+                    td.text-end(colspan='2')  0,00
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Otros fondos
+                    td.text-end(colspan='2')  0,00
+                  tr(style="background-color: #EACCB2;")
+                    th.text-start(style="") TOTAL SALDO CAJA
+                    td.text-end(colspan='2')  0
+            p(style="margin-bottom: 60px;") #[strong CERTIFICO: ] que el efectivo y justificantes de caja mencionados, fueron verificados en mi presencia y devueltos. No existiendo otros fondos, valores o documentos en poder que no hayan sido mostrados en el arqueo.
+            p(style="margin-bottom: 80px;") #[strong Observaciones:]
+            .row(style="justify-content:space-around;")
+              
+              .col-lg-5.mb-4
+                hr.text-center.mx-auto(style= "width:90%; background-color:#000")
+                p.text-center.mt-2 #[strong Firma supervisor]
+              .col-lg-5.mb-4
+                hr.text-center.mx-auto(style= "width:90%")
+                p.text-center.mt-2 #[strong Firma responsable]
+
+          .col-lg-10.p-0(style="").mb-0
+            figcaption Fuente: http://media.actualicese.com/Arqueo-caja-menor.xls
+    
+    
+    p.mb-4 #[strong Ejemplo:]
+    p.mb-4 La empresa Gestión contable SAS tiene como política contable la constitución del fondo de caja menor por valor de $500.000; por lo tanto, se debe registrar la transacción.  La encargada del fondo de caja menor es Ligia Carvajal.
+    p.mb-4 La empresa presenta la siguiente información para realizar el reconocimiento y medición de las transacciones, de igual forma, se solicita realizar el reembolso y arqueo de caja menor.
+    
+
+    .row.justify-content-center.mb-0
+      .col-lg-6.p-4
+
+            .tabla-a.color-acento-contenido.mb-0
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #6595BF;")
+                    th.text-white(colspan='2',style="") Concepto
+                    th.text-white(style="border:none;") Valor
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Elementos de aseo
+                    td.text-end(style="") $120.000
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Papelería
+                    td.text-end(style="") $80.000
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Transporte
+                    td.text-end(style="") $150.000
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Almuerzos 
+                    td.text-end(style="") $80.000
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Gasolina
+                    td.text-end(style="") $50.000
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="") TOTAL
+                    th.text-end(style="border:none;") $480.000
+                  
+  .container.tarjeta.tarjeta--especial.p-4.p-md-5
+    .row.justify-content-center.mb-4
+      .col-lg-6
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-2
+              img(src='@/assets/curso/tema1/tema1-3/icon1.svg' alt='AvatarTop')
+              .tarjeta.transparent1
+                .p-4
+                  h4.mb-4 Constitución fondo de caja menor
+
+          .col-lg-11.p-0
+            .tabla-a.color-acento-contenido.mb-2
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #6595BF;")
+                    th.text-white(style="") Cuenta
+                    th.text-white(style="") Debe
+                    th.text-white(style="border:none;") Haber
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Caja menor
+                    th.text-center(style="font-weight:normal;") $500.000
+                    td
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(style="font-weight:normal;") Bancos
+                    th(style="") 
+                    td.text-end(style="font-weight:normal;") $500.000
+
+                  tr(style="background-color: #eaccb2;")
+                    th.text-start(style="") Total
+                    th.text-end(style="") $500.000
+                    th.text-end(style="border:none;") $500.000
+            figcaption.mt-1 Fuente: elaboración propia
+      
+
+      .col-lg-6
+        .row.justify-content-center
+          .col-lg-12
+            .tarjeta-avatar-b.mb-2
+              img(src='@/assets/curso/tema1/tema1-3/icon2.svg' alt='AvatarTop')
+              .tarjeta.transparent1
+                .p-4
+                  h4.mb-4 Reembolso de caja menor
+          
+          .col-lg-11.p-0(style="background-color: #fcfaf8;")
+            figure.mb-0
+              img(src='@/assets/curso/tema1/tema1-3/img1.svg' alt='tabla empresa gestión contable sas',style="width:564px;")
+            .tabla-a.color-acento-contenido.mb-5
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #eaccb2;")
+                    th(style="") Pagado a
+                    th(style="") Concepto
+                    th(style="border:none;") Valor
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Almacén Alkosto
+                    th.text-center(style="font-weight:normal;") Elementos de aseo
+                    td.text-end(style="font-weight:normal;") $120.000
+                    
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(style="font-weight:normal;") Papelería Panamericana
+                    th.text-start(style="font-weight:normal;") Papelería
+                    td.text-end(style="font-weight:normal;") $80.000
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Transportes García
+                    th.text-center(style="font-weight:normal;") Transporte
+                    td.text-end(style="font-weight:normal;") $150.000
+                    
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(style="font-weight:normal;") Papelería Panamericana
+                    th.text-start(style="font-weight:normal;") Almuerzos
+                    td.text-end(style="font-weight:normal;") $80.000
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Combustibles y lubricantes RJ
+                    th.text-start(style="font-weight:normal;") Gasolina
+                    td.text-end(style="font-weight:normal;") $50.000
+
+                  tr(style="")
+                    th.text-start(style="border:none;") 
+                    th.text-start(style="border:none; background-color: #eaccb2;") TOTAL REINTEGRO
+                    th.text-end(style="border:none; background-color: #eaccb2;") $480.000
+            .col-4(style="border-top: 1px solid #00223D")
+              p.me-2.text-end #[strong Firma]
+                  
+  .container.tarjeta.tarjeta--blanca2.p-4.p-md-5
+
+    .h5.text-center Reintegro de caja menor.
+    .row.justify-content-center.mb-4
+      .col-lg-6(style="padding-inline:4px;")
+        .tabla-a.color-acento-contenido.mb-5
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #eaccb2;")
+                    th(style="width:50%") Cuenta
+                    th(style="width:25%") Debe
+                    th(style="border:none;") Haber
+                    
+                tbody
+                    
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.p-1.text-start(style="font-weight:normal;") Combustibles y lubricantes
+                    th.text-end(style="font-weight:normal;") $50.000
+                    td.text-end(style="font-weight:normal;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Elementos de aseo
+                    th.text-end(style="font-weight:normal;") $120.000
+                    td.text-end(style="font-weight:normal;") 
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(style="font-weight:normal;") Transporte y fletes
+                    th.text-end(style="font-weight:normal;") $150.000
+                    td.text-end(style="font-weight:normal;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Útiles, papelería y fotocopias
+                    th.text-end(style="font-weight:normal;") $80.000
+                    td.text-end(style="font-weight:normal;") 
+
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(style="font-weight:normal;") Casino y restaurante
+                    th.text-end(style="font-weight:normal;") $80.000
+                    td.text-end(style="font-weight:normal;")
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Bancos
+                    th.text-end(style="font-weight:normal;") 
+                    td.text-end(style="font-weight:normal;") $480.000
+
+                  tr(style="")
+                    th.text-start(style="background-color: #eaccb2;") TOTAL
+                    th.text-center(style=" background-color: #eaccb2;") $480.000
+                    th.text-end(style="border:none; background-color: #eaccb2;") $480.000
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .row.justify-content-center
+          .col-lg-10.p-4(style="background-color: #6595BF;").mb-0
+            h4.text-center.text-white.mb-0 Arqueo Caja Menor
+
+          .col-lg-10.p-4(style="background-color: #fcf9f8;")
+            h5.mb-1(style="") Fecha de elaboración:
+            p.mb-0 28 de julio de 2020
+            .tabla-a.color-acento-contenido.mb-5
+              table
+                thead(style="border-color: snow;")
+                  tr
+                    th.text-start(style="width:50%;background-color:#f6f6f6; border-left: none; font-weight:normal;") Logo de la <br>empresa
+                    td(colspan='2',style="background-color: #fcf9f8; border: none;")
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Nombre de la empresa: 
+                    td(colspan='2')
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Nit de la empresa: 
+                    td.text-center 900256189 
+                    td.text-center Teléfono: 
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Dirección de la empresa:
+                    td.text-center(colspan='2') Cra 52 A
+                  tr
+                    th(colspan='3', style="background-color: #cac6c6; border-right: snow;") Acta de arqueo caja
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Nombre responsable: 
+                    td.text-center(colspan='2') Ligia Carvajal 
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Fehca y hora de realización:
+                    td.text-center(colspan='2')  08/07/2020
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Saldo segun libro de caja:
+                    td.text-center(colspan='2') $20.000
+                  tr
+                    th(colspan='3', style="border:none;")
+                    
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Efectivo
+                    td.text-center(colspan='2') $500.000
+                    
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") 
+                    th.text-center(colspan='1', style="font-weight:normal;")  Unidades
+                    td.text-center(colspan='1')  Total
+                  
+                  tr
+                    th(colspan='3', style="border:none;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 50.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 20.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 10.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  1
+                    td.text-end(colspan='1')  $10.000
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 5.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  1
+                    td.text-end(colspan='1')  $5.000
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Billetes de 2.000 
+                    th.text-center(colspan='1', style="font-weight:normal;") 2
+                    td.text-end(colspan='1')  $4.000
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Billetes de 1.000 
+                    th.text-center(colspan='1', style="font-weight:normal;") 1
+                    td.text-end(colspan='1')  $1.000
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 1.000 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Monedas de 500 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 200 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Monedas de 100 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Monedas de 50 
+                    th.text-center(colspan='1', style="font-weight:normal;")  
+                    td.text-end(colspan='1')  $-
+
+                  tr
+                    th(colspan='3', style="border:none;")
+                  
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Otros fondos
+                    td.text-end(colspan='2')  $-
+
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Vales
+                    td.text-end(colspan='2')  $-
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Facturas
+                    td.text-end(colspan='2')  $480,000
+
+                  tr(style="background-color: #e8e8e885;")
+                    th.text-start(style="font-weight:normal;") Anticipos
+                    td.text-end(colspan='2')  $-
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(style="font-weight:normal;") Otros fondos
+                    td.text-end(colspan='2')  $-
+
+                  tr(style="background-color: #EACCB2;")
+                    th.text-start(style="") TOTAL SALDO CAJA
+                    td.text-end(colspan='2') $20.000
+            p(style="margin-bottom: 60px;") #[strong CERTIFICO: ] que el efectivo y justificantes de caja mencionados, fueron verificados en mi presencia y devueltos. No existiendo otros fondos, valores o documentos en poder que no hayan sido mostrados en el arqueo.
+            p(style="margin-bottom: 80px;") #[strong Observaciones:]
+            .row(style="justify-content:space-around;")
+              
+              .col-lg-5.mb-4
+                hr.text-center.mx-auto(style= "width:90%; background-color:#000")
+                p.text-center.mt-2 #[strong Firma supervisor]
+              .col-lg-5.mb-4
+                hr.text-center.mx-auto(style= "width:90%")
+                p.text-center.mt-2 #[strong Firma responsable]
 
     separador
-
-
-
     #t_1_4.titulo-segundo
       .h2 1.4 Conciliación Bancaria.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        figure
+          <iframe width="1224" height="557" src="https://www.youtube.com/embed/FgKN_MPbQLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    .h4.mb-5 Causa de las diferencias entre los libros auxiliares y el extracto bancario: 
+    .row(style="justify-content: space-between; margin-bottom:60px;")
+        .col-lg-6.align-self-center
+          .row
+            .col-lg-12.align-self-center
+              .tarjeta-avatar-b
+                img(src='@/assets/curso/tema1/num1.svg',alt='AvatarNum',style='')
+                .tarjeta.transparent3
+                  .p-5
+                    
+                    p.mb-0 Transacciones contabilizadas por la empresa y no registradas por el banco.
+            
+            .col-lg-12.align-self-center
+              .tarjeta-avatar-b
+                img(src='@/assets/curso/tema1/num2.svg',alt='AvatarNum',style='')
+                .tarjeta.transparent3
+                  .p-5
+                    p.mb-0 Valores que aparecen en el extracto y no han sido contabilizadas por la empresa. En este caso requiere ajustes.
+            
+            .col-lg-12.align-self-center
+              .tarjeta-avatar-b
+                img(src='@/assets/curso/tema1/num3.svg',alt='AvatarNum',style='')
+                .tarjeta.transparent2
+                  .p-5
+                    p.mb-0 Errores y omisiones de la empresa y/o del banco. Errores en los libros (Amador, A., 2013, p.2).
+        
+        .col-lg-5.align-self-center
+          figure  
+            img(src='@/assets/curso/tema1/tema1-4/img1.svg',alt='Causa de las diferencias entre los libros auxiliares y el extracto bancario',style='width:440px;').mx-auto
 
+    .h4.mb-5 Las siguientes, son las etapas que deben seguirse para preparar una conciliación bancaria:
+
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-primario.mb-5(tipo="n")
+          .row
+            .col-md-12.mb-4.mb-md-0
+              p Comparar los recibos de las consignaciones efectuadas y las notas crédito recibidas con las consignaciones y las notas crédito que aparezcan en el extracto bancario. Si hay diferencia, debe precisarse el error y corregirlo.
+
+          .row
+            .col-md-12.mb-4.mb-md-0
+              p Confrontar la lista de cheques registrados en los libros auxiliares y las notas débito recibidas con la columna cheques y notas débito del extracto. Las diferencias deben eliminarse.
+              
+
+          .row
+            .col-md-12.mb-4.mb-md-0
+              p Totalizar las correcciones de las consignaciones en los libros auxiliares.
+
+          .row
+            .col-md-12.mb-4.mb-md-0
+              p Totalizar las correcciones de cheques girados en los libros auxiliares.
+
+    p.mb-4 A continuación, observa la estructura básica de elaboración de la conciliación bancaria (Conciliación bancaria, s.f., párr.14):
+
+    .row.justify-content-center
+      .col-lg-9.p-4.ps-5.pe-5.mb-2(style="background-color: #f2e9e47d;")
+        table
+          tbody
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") Saldo del extracto bancario:    
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (-) Cheques pendientes de cobro:      
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX  
+
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (-) Notas crédito no registradas  
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (+) Consignaciones pendientes 
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX 
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (+) Notas debito no registradas  
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX  
+
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (±) Errores en el auxiliar  
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX
+            tr
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:2px solid #e8e8e8e8;;") = Saldo en libros
+              td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:2px solid #e8e8e8e8;") XXX
+      .col-lg-9.p-0
+        figcaption Fuente:  Sinisterra V., Polanco L., y Henao H. (2011)
 
     separador
-
-
-
-
     #t_1_5.titulo-segundo
       .h2 1.5 Ajuste por diferencia en cambio.
     
