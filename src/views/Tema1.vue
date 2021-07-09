@@ -1054,19 +1054,21 @@
               img(src="@/assets/curso/tema1/tema1-5/img1.svg" alt="Alcance", style="width:485px;").mx-auto
 
     .row.justify-content-center
-      .col-lg-10
-        .tarjeta.custom_bg.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema1/tema1-1/img5.svg" alt="imagen que acompaña enlace", style="width:62px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0              
-                  p.mb-0.text-white Para ampliar el alcance y lineamientos aplicables es importante revisar la Norma Internacional vigente; para ello, explore los siguientes enlaces:
-                .col-sm-auto
-                  a.boton.boton--c(href="https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
-                    span.px-4 Ver
-                    i.fas.fa-link
+      p.mb-4 Para ampliar el alcance y lineamientos aplicables es importante revisar la Norma Internacional vigente; para ello, explore los siguientes enlaces:
+      .col-lg-11
+        .row.justify-content-center
+          .col-lg-12.mb-4
+            a.anexo.mb-4.mb-lg-0(href=" https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p.mb-0 https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227
+          .col-lg-12
+            a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-niif-16-y-segundo-semestre-2016/1514470523-2378" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p.mb-0 https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-niif-16-y-segundo-semestre-2016/1514470523-2378
 
 
 </template>
