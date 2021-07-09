@@ -865,14 +865,210 @@
             tr
               th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:2px solid #e8e8e8e8;;") = Saldo en libros
               td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:2px solid #e8e8e8e8;") XXX
-      .col-lg-9.p-0
+      .col-lg-9.p-0.mb-5
         figcaption Fuente:  Sinisterra V., Polanco L., y Henao H. (2011)
+
+    .h3.mb-4 Métodos de la conciliación bancanria
+    p.mb-5 #[strong Método saldos encontrados:] este método se basa en la elaboración de la conciliación, empezando con alguno de los dos saldos, (el de banco o el de la empresa), para luego reflejar en una sola columna las diferencias, depósitos o cheques que compensen las discrepancias entre ambos para que, al final, se encuentre en saldo contrario, lo cual resulta ser la finalidad de este método (Palmera, 2015, p. 3).
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        figure  
+          img(src='@/assets/curso/tema1/tema1-4/img2.svg',alt='Tabla metodos de conciliación bancaria',style='width:788px;').mx-auto
+
+    .row.justify-content-center.mb-5
+      .col-lg-11
+        figure  
+          img(src='@/assets/curso/tema1/tema1-4/img3.svg',alt='Tabla de conciliación bancaria',style='width:1013px;').mx-auto
+
+
+    .h4.mb-5 Ejemplo:
+
+    .row.justify-content-center.mb-0
+      .col-lg-11.mb-0
+        .tarjeta-avatar-b
+          img(src='@/assets/curso/tema1/num1.svg' alt='AvatarTop')
+          .tarjeta.transparent1
+            .p-5
+              p.mb-0 Realice la conciliación bancaria teniendo en cuenta utilizar el formato básico y aplicar el método “Saldos encontrados” y “Saldos correctos”, con la siguiente información suministrada por la empresa Gestión contable SAS:
+
+    .row.justify-content-center.mb-4
+      .col-lg-7
+        .tabla-a.color-acento-contenido.mb-0
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #6595BF; height: 54px;")
+                    th.text-white(colspan='2',style="") Concepto
+                    th.text-white(style="border:none;") Valor
+                    
+                tbody
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo según libro auxiliar de bancos
+                    td.text-end(style="") $ 1.170.122
+                  
+                  tr(style="background-color: #f2e9e496;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo según extracto bancario
+                    td.text-end(style="") $8.955.336 
+                  tr(style="background-color: #EACCB2;") 
+                    th.text-start(colspan='2', style="font-weight:normal;")  Valores no registrados en libros
+                    td.text-end(style="") 
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota débito GMF
+                    td.text-end(style="")  $ 115.220
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota débito comisiones bancarias
+                    td.text-end(style="")  $          155.896
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota débito chequera
+                    td.text-end(style="")  $          255.000
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota débito IVA chequera
+                    td.text-end(style="") $             48.450 
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota débito timbre chequera
+                    td.text-end(style="") $               5.100 
+                  
+                  tr(style="background-color: #f2e9e496;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Nota crédito rendimientos financieros
+                    td.text-end(style="")  $             12.566 
+
+                  tr(style="background-color: #EACCB2;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Valores no registrados en el extracto
+                    td.text-end(style="") 
+
+                  tr(style="background-color: #aed3f273;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Consignaciones en tránsito
+                    td.text-end(style="") $       1.955.336 
+                  
+                  tr(style="background-color: #e8e8e8;")
+                    th.text-start(colspan='2', style="font-weight:normal;") Cheques pendientes de cobro
+                    td.text-end(style="") $     10.307.650 
+
+    p.mb-2.text-center #[strong Formato Básico]
+
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .tabla-a.color-acento-contenido.mb-0
+              table
+                thead(style="border-color: snow;")
+                  tr(style="background-color: #6595BF; height: 54px;")
+                  th.text-white(colspan='3',style="background-color: #6595BF;") Conciliación Bancaria
+                  
+                tbody
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo en libros
+                    td.text-end(style="") $ 1.170.122
+                  
+                  tr(style="background-color: #f2e9e496;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Menos: Notas débito
+                    td.text-end(style="")  $ 579.666
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Más: Notas crédito
+                    td.text-end(style="") $ 12.566
+                  
+                  tr(style="background-color: #f2e9e496;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo ajustado en libros
+                    td.text-end(style="") $ 603.022 
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo en extracto bancario a 31 marzo
+                    td.text-end(style="") $ 8.955.336 
+                  
+                  tr(style="background-color: #f2e9e496;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Más: consignaciones en tránsito
+                    td.text-end(style="")  $ 1.955.336 
+
+                  tr(style="background-color: #aed3f273;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Menos: cheques girados y no cobrados 
+                    td.text-end(style="") $ 10.307.650
+                  
+                  tr(style="background-color: #f2e9e496;") 
+                    th.text-start(colspan='2', style="font-weight:normal;") Saldo ajustado al extracto
+                    td.text-end(style="") $ 603.022 
+
+    p.mb-0.text-center #[strong Método saldos correctos:]
+    .row.justify-content-center.mb-5
+      .col-lg-11.p-4
+        figure
+          img(src='@/assets/curso/tema1/tema1-4/img4.svg' alt=' Tabla Método saldos correctos', style="951px;")
+
+    p.mb-2.text-center #[strong Método saldos encontrados:]
+    .row.justify-content-center.mb-4
+      .col-lg-10.mb-0
+        figure
+          img(src='@/assets/curso/tema1/tema1-4/img5.svg' alt=' Tabla Método saldos encontrados', style="938px;")
+          
+
+    p.mb-5 Con el fin de profundizar en el proceso de elaboración de la conciliación bancaria, es importante explorar la Biblioteca SENA y los siguientes enlaces:
+
+    .row.justify-content-center
+      .col-lg-10
+        .tarjeta.custom_bg.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/tema1/tema1-1/img5.svg" alt="imagen que acompaña enlace", style="width:62px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0              
+                  p.mb-0.text-white Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. (2a. ed.) Ediciones de la U.
+                .col-sm-auto
+                  a.boton.boton--c(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047" target="_blank")
+                    span.px-4 Ver
+                    i.fas.fa-link
 
     separador
     #t_1_5.titulo-segundo
       .h2 1.5 Ajuste por diferencia en cambio.
     
+
+    p.mb-5 Las empresas se encuentran expuestas al riesgo cambiario, teniendo en cuenta que realizan operaciones en moneda extranjera; con base en ello, es importante aplicar las normas internacionales en el registro de los hechos económicos.
   
+    .row.justify-content-center.mb-4
+      .col-lg-11.p-4(style="background-color: #fdeada63")
+        .h4  Norma Internacional de Contabilidad 21.
+        .h4.mb-4 Efectos de las variaciones en las tasas de cambio de la moneda extranjera
+        p.mb-1 #[strong Objetivo:]
+        p.mb-4 una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, una entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta norma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida. 
+        p.mb-5 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Consejo Técnico de la contaduría pública (CTCP, 2019c, p.503).
+        
+        p.mb-1 #[strong Alcance:]
+        p.mb-4 Esta norma se aplicará:
+        .row.justify-content-center
+          .col-lg-7.align-self-center
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span a
+                | Al contabilizar las transacciones y saldos en moneda extranjera, excepto las transacciones y saldos con derivados que estén dentro del alcance de la NIIF 9- Instrumentos financieros; 
+              li 
+                .lista-ol--cuadro__vineta
+                  span b
+                | al convertir los resultados y la situación financiera de los negocios en el extranjero que se incluyan en los estados financieros de la entidad, ya sea por consolidación o por el método de la participación; y
+              li 
+                .lista-ol--cuadro__vineta
+                  span c
+                | al convertir los resultados y la situación financiera de la entidad en una moneda de presentación. (CTCP, 2019c, p.503).
+          .col-lg-5.align-self-center
+            figure
+              img(src="@/assets/curso/tema1/tema1-5/img1.svg" alt="Alcance", style="width:485px;").mx-auto
+
+    .row.justify-content-center
+      .col-lg-10
+        .tarjeta.custom_bg.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/tema1/tema1-1/img5.svg" alt="imagen que acompaña enlace", style="width:62px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0              
+                  p.mb-0.text-white Para ampliar el alcance y lineamientos aplicables es importante revisar la Norma Internacional vigente; para ello, explore los siguientes enlaces:
+                .col-sm-auto
+                  a.boton.boton--c(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+                    span.px-4 Ver
+                    i.fas.fa-link
+
+
 </template>
 
 <script>
