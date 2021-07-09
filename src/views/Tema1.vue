@@ -1064,7 +1064,7 @@
                 .col.mb-3.mb-sm-0              
                   p.mb-0.text-white Para ampliar el alcance y lineamientos aplicables es importante revisar la Norma Internacional vigente; para ello, explore los siguientes enlaces:
                 .col-sm-auto
-                  a.boton.boton--c(href="http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
+                  a.boton.boton--c(href="https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227" target="_blank")
                     span.px-4 Ver
                     i.fas.fa-link
 
