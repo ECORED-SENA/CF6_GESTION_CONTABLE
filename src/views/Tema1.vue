@@ -1062,13 +1062,13 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.mb-0 https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227
+                p.mb-0 Norma Internacional de Contabilidad 21.
           .col-lg-12
             a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-niif-16-y-segundo-semestre-2016/1514470523-2378" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.mb-0 https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/enmiendas-niif-16-y-segundo-semestre-2016/1514470523-2378
+                p.mb-0 Presidencia de la República expidió el Decreto 2270 de 2019
 
 
 </template>
