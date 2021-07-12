@@ -994,7 +994,7 @@
         figure
           img(src='@/assets/curso/tema1/tema1-4/img4.svg' alt=' Tabla Método saldos correctos', style="951px;")
 
-    p.mb-2.text-center #[strong Método saldos encontrados:]
+    p.mb-2.text-center #[strong Método saldos encontrados]
     .row.justify-content-center.mb-4
       .col-lg-10.mb-0
         figure
