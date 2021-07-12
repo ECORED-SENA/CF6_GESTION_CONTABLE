@@ -106,6 +106,12 @@ export default {
     },
     {
       referencia:
+        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Decreto 2270 de 2019.',
+      link:
+        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
+    },
+    {
+      referencia:
         'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Contabilidad 7: estado de flujos de efectivo. Normas Internacionales de Información Financiera.',
       link:
         'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
@@ -115,12 +121,6 @@ export default {
         'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Información Financiera 9: Instrumentos financieros.',
       link:
         'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica/enmienda-a-la-niif-9-instrumentos/doc-ctcp-xl8w9-141',
-    },
-    {
-      referencia:
-        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Decreto 2270 de 2019.',
-      link:
-        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
     },
     {
       referencia:
