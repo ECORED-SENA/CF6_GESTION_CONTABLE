@@ -18,7 +18,7 @@
       | #[br]  1.1 Política contable.
       | #[br] 1.2 Reconocimiento, medición, presentación y revelación.
       | #[br] 1.3 Arqueo de caja.
-      | #[br] 1.4 Conciliación Bancaria.
+      | #[br] 1.4 Conciliación bancaria.
       | #[br] 1.5 Ajuste por diferencia en cambio.
 
 </template>

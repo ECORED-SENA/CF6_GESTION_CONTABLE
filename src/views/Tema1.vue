@@ -17,7 +17,7 @@
           img(src="@/assets/curso/tema1/img1.svg", alt="Efectivo y quivalentes al efectivo", style="width:298px;").mx-auto
 
     .h3.mb-4 Efectivo
-    p.mb-4 Efectivo: hace referencia al dinero que se encuentra en caja general, caja menor y en las entidades financieras, que son de disponibilidad inmediata. A continuación, se presentan las definiciones de cada una de estas:
+    p.mb-4 Hace referencia al dinero que se encuentra en caja general, caja menor y en las entidades financieras, que son de disponibilidad inmediata. A continuación, se presentan las definiciones de cada una de estas:
     figure.mb-5
         img(src="@/assets/curso/tema1/img2.svg", alt="Efectivo", style="width:460px;").mx-auto
 
@@ -88,7 +88,7 @@
           figure
             img(src='@/assets/curso/tema1/img6.svg',alt='Equivalentes al efectivo',style='width: 540px;').mx-auto
     
-    .h3.mb-5 Clasificación inversiones
+    .h3.mb-5 Clasificación de inversiones
 
     .row.justify-content-center.mb-5
       .col-lg-11.tarjeta--palida
@@ -98,10 +98,10 @@
             ul.lista-ul
               li 
                 i.fas.fa-check
-                p #[strong Inversiones Temporales:] son inversiones que se hacen efectivas en un periodo inferior a un año.
+                p #[strong Inversiones temporales:] son inversiones que se hacen efectivas en un periodo inferior a un año.
               li 
                 i.fas.fa-check
-                p #[strong Inversiones Permanentes:] su objetivo es mantenerlas hasta su vencimiento; es decir, no se espera convertirlas en efectivo antes un año.
+                p #[strong Inversiones permanentes:] su objetivo es mantenerlas hasta su vencimiento; es decir, no se espera convertirlas en efectivo antes de un año.
           .col-lg-4.align-self-center.mb-2
             figure
               img(src='@/assets/curso/tema1/img7.svg',alt='De acuerdo con la intención de realización ',style='width: 365px;').mx-auto 
@@ -142,11 +142,11 @@
     
     separador
     #t_1_1.titulo-segundo
-      .h2 1.1 Política contable.
+      .h2 1.1 Política contable
 
     .row.justify-content-center.mb-4
       .col-lg-7.align-self-center
-        p.mb-4 Las políticas contables son las bases, normas y procedimientos que debe tener en cuenta una entidad para la medición, presentación y revelación de los elementos de los Estados Financieros.
+        p.mb-4 Las políticas contables son las bases, normas y procedimientos que debe tener en cuenta una entidad para la medición, presentación y revelación de los elementos de los estados financieros.
         p.mb-4 Así mismo, es importante definir las directrices para dar cumplimiento a dichos criterios, los cuales varían de acuerdo con el tipo de negocio y al entorno en el cual se desenvuelve.
         p.mb-4 En unidades anteriores, se abordó la temática de políticas contables, donde se hizo hincapié en el marco conceptual y el direccionamiento estratégico de la organización, con el fin de conocer la entidad y, de esta manera, continuar con las políticas de acuerdo con los elementos de los estados financieros.
       .col-lg-5.align-self-center
@@ -161,8 +161,8 @@
           img(src='@/assets/curso/tema1/tema1-1/icon1.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul
             .p-4
-              p.mb-4 #[strong Reconocimiento de los activos:] debe dar cumplimiento al concepto de activo, de acuerdo con los elementos que lo componen para el proceso de incorporación en el Estado de situación financiera.
-              p.mb-4  Recordemos que un activo es “un recurso controlado por la entidad como resultado de sucesos pasados, del que la entidad espera obtener, en el futuro, beneficios económicos” (Moncayo, 2016, párr.1).
+              p.mb-4 #[strong Reconocimiento de los activos:] debe dar cumplimiento al concepto de activo, de acuerdo con los elementos que lo componen para el proceso de incorporación en el estado de situación financiera.
+              p.mb-4  Recordemos que un #[strong activo] es “un recurso controlado por la entidad como resultado de sucesos pasados, del que la entidad espera obtener, en el futuro, beneficios económicos” (Moncayo, 2016, párr.1).
               p.mb-4 Los activos se reconocen en el momento que se presenta la transacción en efectivo o es transferido a una entidad financiera.
       .col-lg-9
         .tarjeta-avatar-b.mb-3
@@ -200,11 +200,11 @@
     
     
     LineaTiempoD.color-primario.mb-5
-        .row.ps-4(numero="1" titulo="Norma Internacional de contabilidad (NIC) 32 - Instrumentos financieros: presentación, que expresa lo siguiente")
+        .row.ps-4(numero="1" titulo="Norma Internacional de Contabilidad (NIC) 32 - Instrumentos financieros: presentación, que expresa lo siguiente:")
           .col-md-7.mt-3.mb-4.mb-md-0
             p.mb-4  #[strong Objetivo:] el objetivo de esta norma es establecer principios para presentar los instrumentos financieros como pasivos o patrimonio y para compensar activos y pasivos financieros. 
             p.mb-4  Aplica a la clasificación de los instrumentos financieros (desde la perspectiva del emisor) en activos y pasivos financieros, e instrumentos de patrimonio; en la clasificación de los intereses, dividendos, pérdidas y ganancias relacionadas con ellos, y en las circunstancias que obligan a la compensación de activos y pasivos financieros. 
-            p.mb-4  Los principios de esta norma complementan los principios de reconocimiento y medición de los activos y pasivos financieros de la NIIF 9- Instrumentos financieros y a la información a revelar sobre ellos en la NIIF 7- Instrumentos financieros: información a revelar. Consejo Técnico de la contaduría pública (CTCP, 2019a, p.229).
+            p.mb-4  Los principios de esta norma complementan los principios de reconocimiento y medición de los activos y pasivos financieros de la NIIF 9- Instrumentos financieros y a la información a revelar sobre ellos en la NIIF 7- Instrumentos financieros: información a revelar. Consejo Técnico de la Contaduría Pública (CTCP, 2019a, p.229).
   
           .col-md-5.mt-3.p-0
             figure(style="text-align: -webkit-right;")
@@ -224,11 +224,11 @@
                         li 
                           .lista-ol--cuadro__vineta
                             span a
-                          | la relevancia de los instrumentos financieros en la situación financiera y en el rendimiento de la entidad; y 
+                          | La relevancia de los instrumentos financieros en la situación financiera y en el rendimiento de la entidad; y 
                         li 
                           .lista-ol--cuadro__vineta
                             span b
-                          | la naturaleza y alcance de los riesgos procedentes de los instrumentos financieros a los que la entidad se haya expuesto durante el periodo y lo esté al final del periodo sobre el que se informa; así como la forma de gestionar dichos riesgos.
+                          | La naturaleza y alcance de los riesgos procedentes de los instrumentos financieros a los que la entidad se haya expuesto durante el periodo y lo esté al final del periodo sobre el que se informa; así como la forma de gestionar dichos riesgos.
               .col-lg-12.align-self-center
                 .tarjeta-avatar-b
                   img(src='@/assets/curso/tema1/num2.svg',alt='AvatarNum',style='align-self: flex-start; margin-top: 25px')
@@ -238,14 +238,14 @@
           
           .col-md-5.mt-3.align-self-center
             figure
-              img(src='@/assets/curso/tema1/tema1-1/img3.svg', alt='Texto que describa la imagen', style="width:388px;").mx-auto
+              img(src='@/assets/curso/tema1/tema1-1/img3.png', alt='Imagen que acompaña a la Norma Internacional de Información Financiera (NIIF) 7', style="width:388px;").mx-auto
 
         .row.ps-4(numero="3" titulo="Norma Internacional de Información Financiera (NIIF) 9- Instrumentos financieros")
           .col-md-7.mt-3.mb-4.mb-md-0
             p #[strong Objetivo:] el objetivo de esta Norma es establecer los principios para la información financiera, sobre activos y pasivos financieros, de tal manera que se presente información útil y relevante para los usuarios de los estados financieros, para la evaluación de los importes, calendario e incertidumbre de los flujos de efectivo futuros de la entidad (CTCP, 2019b, p.340).
           .col-md-5.mt-3
             figure
-              img(src='@/assets/curso/tema1/tema1-1/img4.svg', alt='Texto que describa la imagen', style="width:388px;").mx-auto
+              img(src='@/assets/curso/tema1/tema1-1/img4.png', alt='Imagen que acompaña a laNorma Internacional de Información Financiera (NIIF) 9', style="width:388px;").mx-auto
     
     .row.justify-content-center
       .col-lg-10
@@ -258,7 +258,7 @@
                 .col.mb-3.mb-sm-0              
                   p.mb-0.text-white Para ampliar el alcance y lineamientos aplicables, es importante revisar la norma internacional vigente; para ello, explore los siguientes enlaces:
                 .col-sm-auto
-                  a.boton.boton--c(href="http://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Codigo/30019323" target="_blank")
+                  a.boton.boton--c(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-discusion-publica/enmienda-a-la-niif-9-instrumentos/doc-ctcp-xl8w9-141" target="_blank")
                     span.px-4 Ver
                     i.fas.fa-link
     
@@ -266,7 +266,7 @@
     
     separador
     #t_1_2.titulo-segundo
-      .h2 1.2 Reconocimiento, medición, presentación y revelación.
+      .h2 1.2 Reconocimiento, medición, presentación y revelación
 
     p.mb-5 Una vez se ha realizado el proceso de reconocimiento de la definición de activos, es importante aplicar los criterios al efectivo y sus equivalentes, teniendo en cuenta lo siguiente:
 
@@ -274,27 +274,27 @@
   
       .tarjeta.color-primario.p-4(titulo="Reconocimiento de efectivo")
         .row
-          .col-xl-8.px-5.pt-4
+          .col-xl-7.pt-4(style="padding-start: 2.5rem;")
             h4.mb-2 Reconocimiento de efectivo y equivalente de efectivo:
-            p.mb-4 la entidad define las partidas que hacen parte del efectivo y sus equivalentes, siendo muy detallada su descripción. Cabe resaltar, que el efectivo hace parte el dinero que se encuentra en caja y las entidades financieras, sea de moneda nacional o extranjera.
+            p.mb-4 La entidad define las partidas que hacen parte del efectivo y sus equivalentes, siendo muy detallada su descripción. Cabe resaltar, que el efectivo hace parte del dinero que se encuentra en caja y las entidades financieras, sea de moneda nacional o extranjera.
             p.mb-0 Dentro de los equivalentes al efectivo, es fundamental definir qué inversiones hacen parte de este, conforme al tiempo de duración, disponibilidad inmediata y el riesgo de la negociación.
-          .col-xl-4.mb-2.align-self-center
+          .col-xl-5.mb-2.align-self-center.p-0
             figure
               img(src='@/assets/curso/tema1/tema1-2/img1.svg', alt='Reconocimiento de efectivo y equivalente de efectivo', style="width:368px;").mx-auto
       .tarjeta.color-primario.p-4(titulo="Medición")
         .row 
-          .col-xl-8.px-5.pt-4
+          .col-xl-8.pt-4(style="padding-start: 2.5rem;")
             h4.mb-2 Medición:
-            p.mb-4 la entidad debe registrar la base de medición inicial y posterior del efectivo y equivalentes al efectivo, teniendo en cuenta la normatividad legal vigente. Cabe resaltar, que debe especificarse el manejo, control características y directrices de caja general, caja menor y bancos, haciendo referencia al efectivo.
+            p.mb-4 La entidad debe registrar la base de medición inicial y posterior del efectivo y equivalentes al efectivo, teniendo en cuenta la normatividad legal vigente. Cabe resaltar, que debe especificarse el manejo, control características y directrices de caja general, caja menor y bancos, haciendo referencia al efectivo.
             p.mb-2 De igual forma, se establecen los elementos que pertenecen a equivalente al efectivo, directrices, clasificación y manejo. Recuerda que debe definirse lo que corresponde a equivalentes al efectivo y a inversiones, con el fin de dar aplicabilidad a la norma internacional, de acuerdo con las bases establecidas.
           .col-xl-4.mb-2.align-self-center
             figure
               img(src='@/assets/curso/tema1/tema1-2/img2.svg', alt='Medición', style="width:260px;").mx-auto
       .tarjeta.color-primario.p-4(titulo="Presentación")
         .row
-          .col-xl-6.px-5.py-4
+          .col-xl-6.py-4(style="padding-start: 2.5rem;")
             h4.mb-2 Presentación:
-            p.mb-4 e realiza a través de los estados financieros, teniendo en cuenta las políticas contables y normativa vigente.
+            p.mb-4 Se realiza a través de los estados financieros, teniendo en cuenta las políticas contables y normativa vigente.
           .col-xl-6.mb-2
             figure
               img(src='@/assets/curso/tema1/tema1-2/img3.svg', alt='Presentación', style="width:368px;").mx-auto
@@ -302,9 +302,9 @@
         
         .row
           
-          .col-xl-6.px-5.py-4
+          .col-xl-6.py-4(style="padding-start: 2.5rem;")
             h4.mb-2 Revelación:
-            p.mb-4 la revelación se presenta a través de las notas a los estados financieros, con el fin de proporcionar información clara, comprensible y oportuna para la toma de decisiones.
+            p.mb-4 La revelación se presenta a través de las notas a los estados financieros, con el fin de proporcionar información clara, comprensible y oportuna para la toma de decisiones.
           .col-xl-6.mb-2
             figure
               img(src='@/assets/curso/tema1/tema1-2/img4.svg', alt='Revelación', style="width:216px;").mx-auto
@@ -314,7 +314,7 @@
 
     separador
     #t_1_3.titulo-segundo
-      .h2 1.3 Arqueo de caja.
+      .h2 1.3 Arqueo de caja
 
     figure.mb-5
       .video
@@ -343,13 +343,13 @@
                     th.text-start(style="font-weight:normal;") Nombre de la empresa: 
                     td(colspan='2')
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Nit de la empresa: 
+                    th.text-start(style="font-weight:normal;") NIT de la empresa: 
                     td.text-center(colspan='2') Teléfono: 
                   tr(style="background-color: #aed3f273;")
                     th.text-start(style="font-weight:normal;") Dirección de la empresa:
                     td(colspan='2')
                   tr
-                    th(colspan='3', style="background-color: #cac6c6; border-right: snow;") ACTA DE ARQUEO CAJA
+                    th.text-center(colspan='3', style="background-color: #cac6c6; border-right: snow;") ACTA DE ARQUEO CAJA
                   tr(style="background-color: #aed3f273;")
                     th.text-start(style="font-weight:normal;") Nombre responsable: 
                     td.text-center(colspan='2') XXXXXXX 
@@ -357,8 +357,8 @@
                     th.text-start(style="font-weight:normal;") Fehca y hora de realización:
                     td.text-center(colspan='2')  DIA/MES/AÑO
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Saldo segun libro de caja:
-                    td.text-center(colspan='2') 0.000.000.00
+                    th.text-start(style="font-weight:normal;") Saldo según libro de caja:
+                    td.text-center(colspan='2') $ 0.000.000.00
                   tr
                     th(colspan='3', style="border:none;")
                     
@@ -375,47 +375,47 @@
                     th(colspan='3', style="border:none;")
                   
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 50.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 50.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 20.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 20.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 10.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 10.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 5.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 5.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 2.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 2.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 1.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 1.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 1.000 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 1.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Monedas de 500 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 500 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 200 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 200 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Monedas de 100 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 100 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 50 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 50 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  0,00
 
@@ -446,10 +446,10 @@
               
               .col-lg-5.mb-4
                 hr.text-center.mx-auto(style= "width:90%; background-color:#000")
-                p.text-center.mt-2 #[strong Firma supervisor]
+                p.text-center.mt-2 #[strong Firma responsable]
               .col-lg-5.mb-4
                 hr.text-center.mx-auto(style= "width:90%")
-                p.text-center.mt-2 #[strong Firma responsable]
+                p.text-center.mt-2 #[strong Firma supervisor]
 
           .col-lg-10.p-0(style="").mb-0
             figcaption Fuente: http://media.actualicese.com/Arqueo-caja-menor.xls
@@ -467,7 +467,7 @@
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #6595BF;")
-                    th.text-white(colspan='2',style="") Concepto
+                    th.text-white.text-center(colspan='2',style="") Concepto
                     th.text-white(style="border:none;") Valor
                     
                 tbody
@@ -509,9 +509,9 @@
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #6595BF;")
-                    th.text-white(style="") Cuenta
-                    th.text-white(style="") Debe
-                    th.text-white(style="border:none;") Haber
+                    th.text-white.text-center(style="width: 40%;") Cuenta
+                    th.text-white(style="width: 30%;") Debe
+                    th.text-white(style="width: ;border:none;") Haber
                     
                 tbody
                   tr(style="background-color: #aed3f273;")
@@ -522,13 +522,13 @@
                   tr(style="background-color: #f2e9e496;")
                     th.text-start(style="font-weight:normal;") Bancos
                     th(style="") 
-                    td.text-end(style="font-weight:normal;") $500.000
+                    td.text-center(style="font-weight:normal;") $500.000
 
                   tr(style="background-color: #eaccb2;")
                     th.text-start(style="") Total
-                    th.text-end(style="") $500.000
-                    th.text-end(style="border:none;") $500.000
-            figcaption.mt-1 Fuente: elaboración propia
+                    th.text-center(style="") $500.000
+                    th.text-center(style="border:none;") $500.000
+            
       
 
       .col-lg-6
@@ -547,9 +547,9 @@
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #eaccb2;")
-                    th(style="") Pagado a
-                    th(style="") Concepto
-                    th(style="border:none;") Valor
+                    th.text-start(style="width: 38%;") Pagado a:
+                    th(style="width: ;") Concepto
+                    th(style="width: ;border:none;") Valor
                     
                 tbody
                   tr(style="background-color: #aed3f273;")
@@ -560,7 +560,7 @@
                   
                   tr(style="background-color: #f2e9e496;")
                     th.text-start(style="font-weight:normal;") Papelería Panamericana
-                    th.text-start(style="font-weight:normal;") Papelería
+                    th.text-center(style="font-weight:normal;") Papelería
                     td.text-end(style="font-weight:normal;") $80.000
                   
                   tr(style="background-color: #aed3f273;")
@@ -570,13 +570,13 @@
                     
                   
                   tr(style="background-color: #f2e9e496;")
-                    th.text-start(style="font-weight:normal;") Papelería Panamericana
-                    th.text-start(style="font-weight:normal;") Almuerzos
+                    th.text-start(style="font-weight:normal;") Restaurante Solmar
+                    th.text-center(style="font-weight:normal;") Almuerzos
                     td.text-end(style="font-weight:normal;") $80.000
                   
                   tr(style="background-color: #aed3f273;")
                     th.text-start(style="font-weight:normal;") Combustibles y lubricantes RJ
-                    th.text-start(style="font-weight:normal;") Gasolina
+                    th.text-center(style="font-weight:normal;") Gasolina
                     td.text-end(style="font-weight:normal;") $50.000
 
                   tr(style="")
@@ -588,14 +588,14 @@
                   
   .container.tarjeta.tarjeta--blanca2.p-4.p-md-5
 
-    .h5.text-center Reintegro de caja menor.
+    .h5.text-center Reintegro de caja menor
     .row.justify-content-center.mb-4
       .col-lg-6(style="padding-inline:4px;")
         .tabla-a.color-acento-contenido.mb-5
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #eaccb2;")
-                    th(style="width:50%") Cuenta
+                    th.text-center(style="width:50%") Cuenta
                     th(style="width:25%") Debe
                     th(style="border:none;") Haber
                     
@@ -656,9 +656,9 @@
                 tbody
                   tr(style="background-color: #aed3f273;")
                     th.text-start(style="font-weight:normal;") Nombre de la empresa: 
-                    td(colspan='2')
+                    td.text-center(colspan='2') Gestion Contable SAS
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Nit de la empresa: 
+                    th.text-start(style="font-weight:normal;") NIT de la empresa: 
                     td.text-center 900256189 
                     td.text-center Teléfono: 
 
@@ -666,7 +666,7 @@
                     th.text-start(style="font-weight:normal;") Dirección de la empresa:
                     td.text-center(colspan='2') Cra 52 A
                   tr
-                    th(colspan='3', style="background-color: #cac6c6; border-right: snow;") Acta de arqueo caja
+                    th.text-center(colspan='3', style="background-color: #cac6c6; border-right: snow;") Acta de arqueo caja
                   tr(style="background-color: #aed3f273;")
                     th.text-start(style="font-weight:normal;") Nombre responsable: 
                     td.text-center(colspan='2') Ligia Carvajal 
@@ -674,14 +674,14 @@
                     th.text-start(style="font-weight:normal;") Fehca y hora de realización:
                     td.text-center(colspan='2')  08/07/2020
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Saldo segun libro de caja:
+                    th.text-start(style="font-weight:normal;") Saldo según libro de caja:
                     td.text-center(colspan='2') $20.000
                   tr
                     th(colspan='3', style="border:none;")
                     
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Efectivo
-                    td.text-center(colspan='2') $500.000
+                    th.text-start(style="") Efectivo
+                    td.text-center(colspan='2') #[strong $500.000]
                     
                   tr(style="background-color: #e8e8e885;")
                     th.text-start(style="font-weight:normal;") 
@@ -692,49 +692,49 @@
                     th(colspan='3', style="border:none;")
                   
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 50.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 50.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
 
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 20.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 20.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
 
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 10.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 10.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  1
                     td.text-end(colspan='1')  $10.000
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 5.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 5.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  1
                     td.text-end(colspan='1')  $5.000
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Billetes de 2.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 2.000 
                     th.text-center(colspan='1', style="font-weight:normal;") 2
                     td.text-end(colspan='1')  $4.000
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Billetes de 1.000 
+                    th.text-start(style="font-weight:normal;") Billetes de $ 1.000 
                     th.text-center(colspan='1', style="font-weight:normal;") 1
                     td.text-end(colspan='1')  $1.000
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 1.000 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 1.000 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Monedas de 500 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 500 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 200 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 200 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
                   tr(style="background-color: #e8e8e885;")
-                    th.text-start(style="font-weight:normal;") Monedas de 100 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 100 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
                   tr(style="background-color: #aed3f273;")
-                    th.text-start(style="font-weight:normal;") Monedas de 50 
+                    th.text-start(style="font-weight:normal;") Monedas de $ 50 
                     th.text-center(colspan='1', style="font-weight:normal;")  
                     td.text-end(colspan='1')  $-
 
@@ -763,26 +763,27 @@
 
                   tr(style="background-color: #EACCB2;")
                     th.text-start(style="") TOTAL SALDO CAJA
-                    td.text-end(colspan='2') $20.000
+                    td.text-end(colspan='2') #[strong $20.000]
             p(style="margin-bottom: 60px;") #[strong CERTIFICO: ] que el efectivo y justificantes de caja mencionados, fueron verificados en mi presencia y devueltos. No existiendo otros fondos, valores o documentos en poder que no hayan sido mostrados en el arqueo.
             p(style="margin-bottom: 80px;") #[strong Observaciones:]
             .row(style="justify-content:space-around;")
               
               .col-lg-5.mb-4
                 hr.text-center.mx-auto(style= "width:90%; background-color:#000")
-                p.text-center.mt-2 #[strong Firma supervisor]
+                p.text-center.mt-2 #[strong Firma responsable]
               .col-lg-5.mb-4
                 hr.text-center.mx-auto(style= "width:90%")
-                p.text-center.mt-2 #[strong Firma responsable]
+                p.text-center.mt-2 #[strong Firma supervisor]
 
     separador
     #t_1_4.titulo-segundo
-      .h2 1.4 Conciliación Bancaria.
+      .h2 1.4 Conciliación bancaria
     
     .row.justify-content-center.mb-5
       .col-lg-12
         figure
-          <iframe width="1224" height="557" src="https://www.youtube.com/embed/FgKN_MPbQLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          .video
+            <iframe width="1224" height="557" src="https://www.youtube.com/embed/FgKN_MPbQLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     .h4.mb-5 Causa de las diferencias entre los libros auxiliares y el extracto bancario: 
     .row(style="justify-content: space-between; margin-bottom:60px;")
@@ -843,10 +844,10 @@
         table
           tbody
             tr
-              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") Saldo del extracto bancario:    
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") Saldo del extracto bancario 
               td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX
             tr
-              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (-) Cheques pendientes de cobro:      
+              th.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") (-) Cheques pendientes de cobro    
               td.text-start(style="font-weight:normal; border-left:none; border-right:none; border-top:2px solid #e8e8e8e8; border-bottom:none;") XXX  
 
             tr
@@ -868,7 +869,7 @@
       .col-lg-9.p-0.mb-5
         figcaption Fuente:  Sinisterra V., Polanco L., y Henao H. (2011)
 
-    .h3.mb-4 Métodos de la conciliación bancanria
+    .h3.mb-4 Métodos de la conciliación bancaria
     p.mb-5 #[strong Método saldos encontrados:] este método se basa en la elaboración de la conciliación, empezando con alguno de los dos saldos, (el de banco o el de la empresa), para luego reflejar en una sola columna las diferencias, depósitos o cheques que compensen las discrepancias entre ambos para que, al final, se encuentre en saldo contrario, lo cual resulta ser la finalidad de este método (Palmera, 2015, p. 3).
     
     .row.justify-content-center.mb-5
@@ -892,13 +893,13 @@
             .p-5
               p.mb-0 Realice la conciliación bancaria teniendo en cuenta utilizar el formato básico y aplicar el método “Saldos encontrados” y “Saldos correctos”, con la siguiente información suministrada por la empresa Gestión contable SAS:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-7
         .tabla-a.color-acento-contenido.mb-0
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #6595BF; height: 54px;")
-                    th.text-white(colspan='2',style="") Concepto
+                    th.text-white.text-center(colspan='2',style="") Concepto
                     th.text-white(style="border:none;") Valor
                     
                 tbody
@@ -908,9 +909,9 @@
                   
                   tr(style="background-color: #f2e9e496;") 
                     th.text-start(colspan='2', style="font-weight:normal;") Saldo según extracto bancario
-                    td.text-end(style="") $8.955.336 
+                    td.text-end(style="") $ 8.955.336 
                   tr(style="background-color: #EACCB2;") 
-                    th.text-start(colspan='2', style="font-weight:normal;")  Valores no registrados en libros
+                    th.text-start(colspan='2', style="")  Valores no registrados en libros
                     td.text-end(style="") 
                   tr(style="background-color: #aed3f273;") 
                     th.text-start(colspan='2', style="font-weight:normal;") Nota débito GMF
@@ -948,13 +949,13 @@
 
     p.mb-2.text-center #[strong Formato Básico]
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center(style="margin-bottom:80px;")
       .col-lg-7
         .tabla-a.color-acento-contenido.mb-0
               table
                 thead(style="border-color: snow;")
                   tr(style="background-color: #6595BF; height: 54px;")
-                  th.text-white(colspan='3',style="background-color: #6595BF;") Conciliación Bancaria
+                    th.text-white(colspan='3',style="background-color: #6595BF;") Conciliación Bancaria
                   
                 tbody
                   tr(style="background-color: #aed3f273;") 
@@ -987,7 +988,7 @@
                     th.text-start(colspan='2', style="font-weight:normal;") Saldo ajustado al extracto
                     td.text-end(style="") $ 603.022 
 
-    p.mb-0.text-center #[strong Método saldos correctos:]
+    p.mb-0.text-center #[strong Método saldos correctos]
     .row.justify-content-center.mb-5
       .col-lg-11.p-4
         figure
@@ -1019,7 +1020,7 @@
 
     separador
     #t_1_5.titulo-segundo
-      .h2 1.5 Ajuste por diferencia en cambio.
+      .h2 1.5 Ajuste por diferencia en cambio
     
 
     p.mb-5 Las empresas se encuentran expuestas al riesgo cambiario, teniendo en cuenta que realizan operaciones en moneda extranjera; con base en ello, es importante aplicar las normas internacionales en el registro de los hechos económicos.
@@ -1029,8 +1030,8 @@
         .h4  Norma Internacional de Contabilidad 21.
         .h4.mb-4 Efectos de las variaciones en las tasas de cambio de la moneda extranjera
         p.mb-1 #[strong Objetivo:]
-        p.mb-4 una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, una entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta norma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida. 
-        p.mb-5 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Consejo Técnico de la contaduría pública (CTCP, 2019c, p.503).
+        p.mb-4 Una entidad puede llevar a cabo actividades en el extranjero de dos maneras diferentes. Puede realizar transacciones en moneda extranjera o bien puede tener negocios en el extranjero. Además, una entidad puede presentar sus estados financieros en una moneda extranjera. El objetivo de esta norma es prescribir cómo se incorporan, en los estados financieros de una entidad, las transacciones en moneda extranjera y los negocios en el extranjero, y cómo convertir los estados financieros a la moneda de presentación elegida. 
+        p.mb-5 Los principales problemas que se presentan son la tasa o tasas de cambio a utilizar, así como la manera de informar sobre los efectos de las variaciones en las tasas de cambio dentro de los estados financieros. Consejo Técnico de la Contaduría Pública (CTCP, 2019c, p.503).
         
         p.mb-1 #[strong Alcance:]
         p.mb-4 Esta norma se aplicará:
@@ -1044,14 +1045,14 @@
               li 
                 .lista-ol--cuadro__vineta
                   span b
-                | al convertir los resultados y la situación financiera de los negocios en el extranjero que se incluyan en los estados financieros de la entidad, ya sea por consolidación o por el método de la participación; y
+                | Al convertir los resultados y la situación financiera de los negocios en el extranjero que se incluyan en los estados financieros de la entidad, ya sea por consolidación o por el método de la participación; y
               li 
                 .lista-ol--cuadro__vineta
                   span c
-                | al convertir los resultados y la situación financiera de la entidad en una moneda de presentación. (CTCP, 2019c, p.503).
+                | Al convertir los resultados y la situación financiera de la entidad en una moneda de presentación. (CTCP, 2019c, p.503).
           .col-lg-5.align-self-center
             figure
-              img(src="@/assets/curso/tema1/tema1-5/img1.svg" alt="Alcance", style="width:485px;").mx-auto
+              img(src="@/assets/curso/tema1/tema1-5/img1.png" alt="Alcance", style="width:485px;").mx-auto
 
     .row.justify-content-center
       p.mb-4 Para ampliar el alcance y lineamientos aplicables es importante revisar la Norma Internacional vigente; para ello, explore los siguientes enlaces:
@@ -1068,7 +1069,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.mb-0 Presidencia de la República expidió el Decreto 2270 de 2019
+                p.mb-0 Presidencia de la República expidió el Decreto 2270 de 2019.
 
 
 </template>

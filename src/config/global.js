@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Manejo de efectivo y equivalente al efectivo.',
+    componenteFormativo: 'Manejo de efectivo y equivalente al efectivo',
     descripcionCurso:
       'En este componente se desarrolla los conceptos efectivo y equivalente al efectivo, para ello se tendrá en cuenta los criterios de reconocimiento, medición, presentación y revelación, estos elementos son importantes en el ámbito empresarial, toda vez, que permiten dar cumplimiento a los compromisos adquiridos, teniendo en cuenta, la capacidad de liquidez y a su vez la fomentación de un adecuado manejo, que permita salvaguardar el activo de la organización, de ahí la importancia de tomar buenas decisiones, las cuales se verán reflejadas en una adecuada administración de la organización.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
@@ -106,9 +106,9 @@ export default {
     },
     {
       referencia:
-        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Contabilidad 7: estado de flujos de efectivo. Normas Internacionales de Información Financiera',
+        'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Norma Internacional de Contabilidad 7: estado de flujos de efectivo. Normas Internacionales de Información Financiera.',
       link:
-        'http://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
+        'https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534368973-9784',
     },
     {
       referencia:
@@ -136,11 +136,11 @@ export default {
     },
     {
       referencia:
-        'Instituto nacional de contadores públicos. (2020, 01 de noviembre).',
+        'Instituto Nacional de Contadores Públicos. (2020, 01 de noviembre).',
       link: 'https://www.incp.org.co/',
     },
     {
-      referencia: 'Junta central de contadores. (2020, 01 de noviembre). ',
+      referencia: 'Junta Central de Contadores. (2020, 01 de noviembre). ',
       link: 'http://www.jcc.gov.co/',
     },
     {
@@ -221,20 +221,20 @@ export default {
         'Fierro Martínez, Ángel María (2011). Contabilidad General (4ª ed.). Ecoe Ediciones.',
       tipo: 'Capítulo 5, página 145.',
       link:
-        'Fierro Martínez, Ángel María (2011). Contabilidad General (4ª ed.). Ecoe Ediciones.',
+        'https://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29895#',
     },
     {
       texto:
         'Fierro Martínez, Ángel María (2015). Contabilidad de activos con enfoque NIIF para pymes (3ª ed.). Ecoe Ediciones.',
       tipo: 'Capítulo 3, página 47',
       link:
-        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39427',
+        'https://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39427',
     },
     {
       texto: 'Decreto 2270 de 2019',
       tipo: 'Decreto',
       link:
-        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
+        'https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
     },
     {
       texto: 'Elaboración conciliación bancaria',
@@ -263,6 +263,22 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Patricia Mantilla Galvis',
+        cargo: 'Instructora',
+        centro: 'Centro de Servicios Financieros Regional Distrito Capital',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -277,10 +293,51 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Marcela Gonzalez Gomez'],
+        nombre: ['Marcela González Gómez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura Regional Tolima',
       },
       {
         nombre: 'John Andres Ayala Angarita',
@@ -289,13 +346,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
