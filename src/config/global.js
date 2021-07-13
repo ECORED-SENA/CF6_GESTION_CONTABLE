@@ -337,7 +337,7 @@ export default {
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'John Andres Ayala Angarita',
