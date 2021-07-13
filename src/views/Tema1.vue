@@ -318,7 +318,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        <iframe width="990" height="557" src="https://www.youtube.com/embed/rpicwosfieU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     p.mb-4 Por lo anterior, es fundamental realizar arqueos de caja, lo cual consiste en analizar y comprobar que la información contable coincida con el efectivo que se encuentra de forma física (billetes, monedas, cheques).  Se debe verificar que no presenten faltantes o sobrantes de caja, de llegar a suceder, se realiza el respectivo ajuste mediante una nota contable. El faltante resulta cuando se realiza el arqueo y se observa que el valor en la caja es menor que el saldo que se refleja en los libros.
     p.mb-5 La entidad elabora el formato para registrar la información obtenida en el arqueo de caja. A continuación, observa el formato guía para su análisis:
@@ -936,7 +936,7 @@
                     td.text-end(style="")  $             12.566 
 
                   tr(style="background-color: #EACCB2;")
-                    th.text-start(colspan='2', style="font-weight:normal;") Valores no registrados en el extracto
+                    th.text-start(colspan='2', style="") Valores no registrados en el extracto
                     td.text-end(style="") 
 
                   tr(style="background-color: #aed3f273;")

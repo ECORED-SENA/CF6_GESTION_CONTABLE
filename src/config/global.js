@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Manejo de efectivo y equivalente al efectivo',
     descripcionCurso:
-      'En este componente se desarrolla los conceptos efectivo y equivalente al efectivo, para ello se tendrá en cuenta los criterios de reconocimiento, medición, presentación y revelación, estos elementos son importantes en el ámbito empresarial, toda vez, que permiten dar cumplimiento a los compromisos adquiridos, teniendo en cuenta, la capacidad de liquidez y a su vez la fomentación de un adecuado manejo, que permita salvaguardar el activo de la organización, de ahí la importancia de tomar buenas decisiones, las cuales se verán reflejadas en una adecuada administración de la organización.',
+      'En este componente se desarrollan los conceptos efectivo y equivalente al efectivo, para ello se tendrán en cuenta los criterios de reconocimiento, medición, presentación y revelación, estos elementos son importantes en el ámbito empresarial, toda vez, que permiten dar cumplimiento a los compromisos adquiridos, teniendo en cuenta, la capacidad de liquidez y a su vez la fomentación de un adecuado manejo, que permita salvaguardar el activo de la organización, de ahí la importancia de tomar buenas decisiones, las cuales se verán reflejadas en una adecuada administración de la organización.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
   },
