@@ -108,7 +108,7 @@ export default {
       referencia:
         'Consejo Técnico de la Contaduría Pública – CTCP- (2020a, 01 de noviembre). Decreto 2270 de 2019.',
       link:
-        'http://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
+        'https://www.ctcp.gov.co/noticias/2019/presidencia-de-la-republica-expidio-el-decreto-227',
     },
     {
       referencia:
